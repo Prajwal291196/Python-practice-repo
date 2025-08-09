@@ -1,0 +1,10 @@
+John Doe - Email: john.doe@example.com, Phone: +1-202-555-0147
+Jane Smith - Email: jane_smith123@gmail.com, Phone: (202) 555-0199
+Michael Johnson - Email: michael.j@example.co.uk, Phone: 202.555.0188
+Emily Davis - Email: emily.davis@company.org, Phone: +44 7700 900123
+Robert Brown - Email: robert_brown@my-site.io, Phone: 7700-900-555
+Lisa Miller - Email: lisa.miller@domain.net, Phone: 555-0199
+Chris Wilson - Email: chriswilson@startup.ai, Phone: +91-9876543210
+Contact us: support@shoponline.com or call (800) 123-4567
+Helpline: helpdesk@service.net, Phone: 1-800-555-0000
+Alternate: backup_email@sample.com, +1 (212) 555-1212
