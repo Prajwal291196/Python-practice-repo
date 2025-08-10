@@ -1,0 +1,9 @@
+2025-08-09 10:15:23,456 [INFO] Application started
+2025-08-09 10:15:24,112 [WARNING] Low disk space: 500MB remaining
+2025-08-09 10:15:25,789 [ERROR] Failed to connect to database: timeout
+2025-08-09 10:15:26,034 [INFO] Retrying connection
+2025-08-09 10:15:27,221 [INFO] Connection established
+2025-08-09 10:15:28,412 [WARNING] High memory usage detected
+2025-08-09 10:15:29,550 [ERROR] Database query failed: syntax error
+2025-08-09 10:15:30,678 [INFO] Shutting down services
+2025-08-09 10:15:31,789 [ERROR] Failed to close database connection
