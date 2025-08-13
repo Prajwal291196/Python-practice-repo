@@ -24,7 +24,7 @@ def dict_counter_defaultdict(items):
     counter = defaultdict(int)
     for item in items:
         counter[item] += 1
-    return dict(counter)
+    return dict(counter) 
 
 def dict_counter_map_reduce(items):
     # Using map and reduce
