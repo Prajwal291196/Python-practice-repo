@@ -1,0 +1,9 @@
+id,name,email,department
+1,John Doe,john.doe@example.com,HR
+2,Jane Smith,,Finance
+3,Sam Wilson,sam.wilson@example.com,IT
+4,Alice Johnson,alice.j@example.com,Finance
+2,Jane Smith,,Finance
+5,Mark Lee,mark.lee@example.com,HR
+3,Sam Wilson,sam.wilson@example.com,IT
+6,Mary Brown,,Marketing
