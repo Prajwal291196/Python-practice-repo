@@ -15,6 +15,9 @@ def find_duplicates(directory):
     duplicates = {}
 
     for root, _, files in os.walk(directory):
+        print(f"🔍 Scanning {root}...")
+        print(f"   Found {len(files)} files.",files)
+        print("   Computing hashes...", _)
         for file in files:
             file_path = os.path.join(root, file)
             try:
@@ -25,6 +28,8 @@ def find_duplicates(directory):
                     hashes[file_hash] = file_path
             except Exception as e:
                 print(f"⚠ Could not hash {file_path}: {e}")
+    print(hashes)
+    print(duplicates)
     return duplicates
 
 def print_duplicates(duplicates):
