@@ -21,12 +21,7 @@ CPU_THRESHOLD = 80
 RAM_THRESHOLD = 80
 DISK_THRESHOLD = 85
 
-# Email settings
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
-EMAIL_ADDRESS = "prajwalnaik159@gmail.com"
-EMAIL_PASSWORD = "lxlg itdy paxw nkrk"
-TO_EMAIL = "naikpraju159@gmail.com"
+
 
 def send_desktop_alert(message):
     """Send desktop notification."""
