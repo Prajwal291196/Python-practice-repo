@@ -13,7 +13,6 @@ def scrape_jobs():
 
     soup = BeautifulSoup(response.text, "html.parser")
     jobs = []
-    print(soup.prettify())
     for row in soup.find_all("tr", class_="job"):
         title = row.find("h2")
         company = row.find("h3")
