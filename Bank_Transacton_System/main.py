@@ -65,12 +65,12 @@ import os
 
 
 class BankAccount:
-    def __init__(self, initial_balance=0, account_number=None, account_name=None):
+    def __init__(self, initial_balance=0, account_number=None, account_name=None, data_file="bank_account.json"):
         self.balance = initial_balance
         self.transaction_history = []
         self.account_number = account_number
         self.account_name = account_name
-        self.data_file = f"bank_account.json"
+        self.data_file = data_file
         try:
             self.load_account()
         except Exception as e:
