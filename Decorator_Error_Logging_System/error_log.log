@@ -1,0 +1,24 @@
+2025-10-01 16:15:49,902 - INFO - Function 'greet' called with args=('Alice',) kwargs={}
+2025-10-01 16:15:50,403 - INFO - Function 'greet' executed in 0.5015 seconds and returned: Hello, Alice!
+2025-10-01 16:15:50,406 - INFO - Function 'divide' called with args=(10, 2) kwargs={}
+2025-10-01 16:15:51,407 - INFO - Function 'divide' executed in 1.0036 seconds and returned: 5.0
+2025-10-01 16:15:51,408 - INFO - Function 'divide' called with args=(10, 0) kwargs={}
+2025-10-01 16:15:52,443 - ERROR - \u274c Error in 'divide' with args=(10, 0), kwargs={}: division by zero
+Traceback (most recent call last):
+  File "C:\VS_Code\Clone\Python\Decorator_Error_Logging_System\main.py", line 24, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\VS_Code\Clone\Python\Decorator_Error_Logging_System\main.py", line 49, in divide
+    return a / b
+           ~~^~~
+ZeroDivisionError: division by zero
+
+2025-10-01 16:15:52,445 - INFO - Function 'divide' called with args=('10', '2') kwargs={}
+2025-10-01 16:15:53,447 - ERROR - \u274c Error in 'divide' with args=('10', '2'), kwargs={}: unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "C:\VS_Code\Clone\Python\Decorator_Error_Logging_System\main.py", line 24, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\VS_Code\Clone\Python\Decorator_Error_Logging_System\main.py", line 49, in divide
+    return a / b
+           ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+
